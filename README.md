@@ -46,4 +46,9 @@ Create a DataFrame that lists the average reading score for students of each gra
 
 # Scores by School Spending
 Create a table that breaks down school performance based on average spending ranges (per student).
+Use pd.cut on the "Total Students" column of the per_school_summary DataFrame.
+Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large).
 
+# Scores by School Type
+Use the per_school_summary DataFrame from the previous step to create a new DataFrame called type_summary.
+This new DataFrame should show school performance based on the "School Type".
